@@ -38,3 +38,9 @@ body{margin:0;background:var(--background);color:var(--text);font-family:Inter,s
 .side-value{font-size:22px;font-weight:800;color:var(--primary)}
 .footer{margin-top:20px;text-align:center;color:#666;font-size:12px}
 @media (max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}.chart-section{height:360px}.side{min-width:160px}}
+.table-section{margin-top:16px}
+.table-title{font-size:14px;color:#666;margin-bottom:8px;font-weight:600}
+.data-table{width:100%;border-collapse:collapse}
+.data-table thead th{text-align:left;color:#666;font-weight:600;border-bottom:1px solid var(--border);padding:8px 10px}
+.data-table tbody td{color:var(--primary);border-bottom:1px solid var(--border);padding:8px 10px}
+.data-table tbody tr:hover{background:rgba(255,153,0,0.08)}
